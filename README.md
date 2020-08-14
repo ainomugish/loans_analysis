@@ -15,6 +15,8 @@ cronjob for running Notebook
 nano /etc/crontab
 0 8 28 * * papermill loans_assessment.ipynb ~/log/nb_output_$(date ‘+%Y_%m_%d’).ipynb -f params.yaml
 
+Visualization
+-------------------------------------------
+Used metabase(https://www.metabase.com/) for frontend.
 
-
-
+sample at http://104.248.186.13:3000/
