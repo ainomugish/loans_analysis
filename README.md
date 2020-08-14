@@ -17,6 +17,6 @@ nano /etc/crontab.
 
 Visualization
 -------------------------------------------
-Used metabase(https://www.metabase.com/) for frontend.
+I used metabase(https://www.metabase.com/) for frontend.
 
 sample at http://104.248.186.13:3000/
