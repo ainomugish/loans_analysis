@@ -19,4 +19,4 @@ Visualization
 -------------------------------------------
 I used metabase(https://www.metabase.com/) for frontend.
 
-sample at http://104.248.186.13:3000/
+sample at http://104.248.186.13:3000/dashboard/1
