@@ -2,9 +2,9 @@
 loan_profile : '../loan_report.html'
 port: 2525
 smtp_server : "smtp.mailtrap.io"
-login : "1a2b3c4d5e6f7g"
-password : "1a2b3c4d5e6f7g"
+login : "562cd2cbe37a29"
+password : "2f1234e7332629"
 subject : "ETL Pipeline Results"
 sender_email : "sender@mailtrap.io"
-receiver_email : "new@mailtrap.io"
+receiver_email : "receiver@mailtrap.io"
 dw_string : "host='localhost' dbname='dw1' user='dw' password='dwhouse'"
