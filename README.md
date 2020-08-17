@@ -29,6 +29,14 @@ cronjob for running Notebook
 nano /etc/crontab\
 0 8 28 * * papermill loans_assessment.ipynb ~/log/nb_output_$(date ‘+%Y_%m_%d’).ipynb -f params.yaml
 
+Using those two commands sets up a cronjob that will run on every 28th of the month and supply a YAML file with parameters the notebook requires to run and anlyse the data. Papermill is used for running the notebook automatically.\
+
+Output is a notebook with the results of running the cells in the notebook.
+
+If you chose to run the notbook without scheduling it then run this command:
+papermill loans_assessment.ipynb ~/log/nb_output_$(date ‘+%Y_%m_%d’).ipynb -f params.yaml
+
+
 Visualization
 -------------------------------------------
 I used metabase(https://www.metabase.com/) for frontend.\
