@@ -8,7 +8,7 @@ run database.pgsql on PostgresSQL(this is what I used).
 Input to notebook
 -------------------------------------------
 sample params.yaml for passing parameters to papermill as input to notebook.\
-Please populate params with your own details, defined here:\
+Please populate params with your own details, defined here:
 
 filename : absolute path to location of input csv data file\
 loan_profile : absolute path to location where field statistics file will be saved.\
@@ -22,12 +22,12 @@ receiver_email : receiving email\
 dw_string : database connection string\
 preserved_file : absolute path for location to save analysed input file for future reference\
 
-NOTE: all paths are required to be absolute paths, eg. /home/username/projects/until/location/of/file\
+NOTE: all paths are required to be absolute paths, eg. /home/username/projects/until/location/of/file
 
 cronjob for running Notebook
 -------------------------------------------
 nano /etc/crontab\
-0 8 28 * * papermill loans_assessment.ipynb ~/log/nb_output_$(date ‘+%Y_%m_%d’).ipynb -f params.yaml\
+0 8 28 * * papermill loans_assessment.ipynb ~/log/nb_output_$(date ‘+%Y_%m_%d’).ipynb -f params.yaml
 
 Visualization
 -------------------------------------------
