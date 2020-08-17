@@ -7,16 +7,16 @@ run database.pgsql on PostgresSQL(this is what I used).
 
 Input to notebook
 -------------------------------------------
-sample params.yaml for passing parameters to papermill as input to notebook.
+sample params.yaml for passing parameters to papermill as input to notebook.\
 Please populate params with your own details, defined here:
 
 filename : absolute path to location of input csv data file
 loan_profile : absolute path to location where field statistics file will be saved.
 port: mail server port
-smtp_server : mail server hostname
-login : mail username
-password : mail password
-subject : "ETL Pipeline Results"
+smtp_server : mail server hostname\
+login : mail username\
+password : mail password\
+subject : "ETL Pipeline Results"\
 sender_email : sending email
 receiver_email : receiving email
 dw_string : database connection string
